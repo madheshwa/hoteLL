@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <h1> FLIGHT BOOKING MANAGEMENT </h1>
+    <div class="container">
+        <h1>Flight Booking</h1>
+        <form id="bookingForm">
+            <label for="checkin">check-in:</label>
+            <input type="date" id="checkin" required>
+
+            <label for="checkout">Check-out:</label>
+            <input type="date" id="checkout" required>
+
+            <label for="guests">Number of passenger:</label>
+            <input type="number" id="guests" min="1" max="5" required>
+
+            <label for="room">class Type:</label>
+            <select id="room" required>
+                <option value="">Select a class</option>
+                <option value="single">bussiness class</option>
+                <option value="double">economy class</option>
+            </select>
+            <a href="https://www.cheapoair.com/flights/booknow/cheap-flight-tickets?fpaffiliate=coa-bing-generic-global-cf&fpsub=book-flight-g&utm_campaign=generic-global-em&utm_term=book%20flights&utm_term_id=kwd-77034639773320&utm_source=bing&utm_medium={cpc}&device=c&fpprice=&campaignID=328530806&adgroupId=1232552652686279&msclkid=ce9cc6ca4ee813e259dca1649692dbc9&utm_content=Book%20Flight-G">Book Now</button>
+        </form>
+
+        <div id="confirmation"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
